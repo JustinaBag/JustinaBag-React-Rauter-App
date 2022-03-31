@@ -1,0 +1,26 @@
+.List {
+    background-color: #bae1ff;
+}
+
+.Title {
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 600;
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+
+.Btn-x {
+   background-color: #ffb3ba;
+   border-radius: 10px;
+   border: 0px;
+}
+
+.Btn {
+    background-color: #baffc9;
+    border-radius: 10px;
+    border: 0px;
+}
+
+.List-item {
+   list-style-type: none;
+}

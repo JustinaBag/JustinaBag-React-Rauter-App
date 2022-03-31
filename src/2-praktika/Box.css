@@ -1,0 +1,24 @@
+.Box-1, .Box-2, .Box-3, .Box-4 {
+    height: 100px;
+}
+
+.row {
+justify-content:space-around;
+display:flex; 
+}
+
+.Box-1 {
+    background: rgba(0, 0, 0, 0.671);
+}
+
+.Box-2{
+    background: rgba(0, 0, 0, 0.445);
+}
+
+.Box-3{
+    background: rgba(0, 0, 0, 0.212);
+}
+
+.Box-4{
+    background: rgba(0, 0, 0, 0.041);
+}

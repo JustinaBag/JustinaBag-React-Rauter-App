@@ -1,0 +1,6 @@
+.Photo {
+    justify-content: space-around;
+    display: flex;  
+    height: 500px;
+}
+

@@ -1,0 +1,16 @@
+.readMoreClassName {
+    color: #007bff;
+    border-bottom: 1px solid lightgray;
+    display: block;
+}
+
+.readMoreClassName:hover, .readLessClassName:hover {
+    color: initial;
+}
+
+.readLessClassName {
+    color: rgb(224, 97, 58);
+    border-bottom: 1px solid lightgray;
+}
+
+
