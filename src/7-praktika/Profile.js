@@ -18,8 +18,9 @@ function Profile() {
   }, []);
 
   return (
-    <div className="container mt-5 ">
-      <div className="row text-end ">
+    <div className="container mt-5">
+      <div className="row text-end">
+  
         <div className="col-6">
           <img src={profile.avatar_url} alt="avatar" />
         </div>
@@ -41,11 +42,12 @@ function Profile() {
         </div>
         <p className="text-center mt-2">
           <Link to={`/7`}>
-            <button className="btn btn-dark btn-lg ">Go back &raquo;</button>
+            <button className="btn btn-dark btn-lg pb-5">Go back &raquo;</button>
           </Link>
         </p>
-      </div>
-    </div>
+    
+       </div>
+     </div>
   );
 }
 

@@ -26,10 +26,11 @@ import Error from './ErrorPage/ErrorPage';
 
 function App() {
   return (
-   
+   <div className="container-fluid">
+   <div className="row">
 <Router>
  <nav>
- <h1 className="text-center">React lessons</h1>
+ <h1 className="text-center bg-dark text-white p-3 fst-italic">React lessons</h1>
 
 <div className="text-center p-4">
 
@@ -105,9 +106,10 @@ function App() {
  <Route path="*" element={ <Error />} />
  </Routes>
 
-<div className="bg-dark text-white fs-3 text-center fst-italic font-monospace p-5">JustinaBag</div>
+<div className="bg-dark text-white fs-3 text-center fst-italic font-monospace p-2 fixed-bottom">JustinaBag</div>
 </Router>
-
+</div>
+</div>
   );
 }
 
