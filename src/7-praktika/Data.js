@@ -29,7 +29,9 @@ function Data() {
       />
     );
   });
-  return <>{usersData}</>;
+  return(
+    <>{usersData}</>
+  ) 
 }
 
 export default Data;
